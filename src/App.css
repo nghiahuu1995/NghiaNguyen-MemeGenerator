@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  font-family:  monospace;
+  font-size: 1.75rem;
+  color: white;
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +38,25 @@
   to {
     transform: rotate(360deg);
   }
+} */
+img {
+  max-width: 600px;
+  max-height: 400px;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  
+}
+.top-text {
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+  top: 2%;
+}
+.bottom-text {
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+  bottom: 5%;
 }
