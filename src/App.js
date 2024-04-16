@@ -2,7 +2,7 @@
 import './App.css';
 
 import { useState, useEffect } from 'react'
-// const API = "1e57f18139504747aca902e209cb551e"
+
 function App() {
   const [text, setText] = useState({ top: "", bottom: "" });
   const [imgURL, setImageURL] = useState("")
